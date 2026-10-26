@@ -1,0 +1,10 @@
+:root{--bg:#FAF7F0;--fg:#2A2622;--muted:#7A7066;--gold:#9E7E3C;--line:#E6DFD2}
+@media (prefers-color-scheme:dark){:root{--bg:#16140F;--fg:#F1ECE2;--muted:#A69C8E;--gold:#D4B675;--line:#3A342A}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font-family:"Hiragino Mincho ProN","Yu Mincho",serif;line-height:1.9}
+main{max-width:720px;margin:0 auto;padding:56px 20px 72px}
+.eyebrow{color:var(--gold);letter-spacing:.2em;font-size:.8rem;text-transform:uppercase}
+h1{font-weight:600;font-size:1.8rem;margin:.3em 0 .8em;letter-spacing:.04em}
+h2{font-size:1.1rem;margin:2em 0 .4em;color:var(--gold);font-weight:600}
+p,li{font-size:.98rem}a{color:var(--gold)}
+hr{border:0;border-top:1px solid var(--line);margin:2.5em 0}
+footer{color:var(--muted);font-size:.82rem}
